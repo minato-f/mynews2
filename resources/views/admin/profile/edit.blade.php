@@ -33,7 +33,7 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="hobby" row="10">{{ $profile_form->gender }}</textarea>
+                            <textarea class="form-control" name="hobby" row="10">{{ $profile_form->hobby }}</textarea>
                         </div>
                     </div>
                     
