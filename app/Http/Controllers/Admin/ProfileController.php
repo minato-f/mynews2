@@ -73,7 +73,7 @@ class ProfileController extends Controller
         $profile_histories->edited_at = Carbon::now();
         $profile_histories->save();
                 
-        return redirect('admin/profile/edit');
+        return redirect('admin/profile/');
     }
     
     // 以下を追記    
